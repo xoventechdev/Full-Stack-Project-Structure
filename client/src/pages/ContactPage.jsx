@@ -1,13 +1,12 @@
 import MasterLayout from '../components/MasterLayout';
 import React from 'react';
 
-const HomePage = () => {
+const ContactPage = () => {
     return (
         <MasterLayout>
-            <h2>This is Home Page</h2>
-            <p>You are welcome to here.</p>
+            <h2>This is Contact Page</h2>
         </MasterLayout>
     );
 };
 
-export default HomePage;
+export default ContactPage;

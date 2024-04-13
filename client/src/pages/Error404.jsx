@@ -1,10 +1,11 @@
+import MasterLayout from '../components/MasterLayout';
 import React from 'react';
 
 const Error404 = () => {
     return (
-        <div>
+        <MasterLayout>
             <h2>Page not found - 404</h2>
-        </div>
+        </MasterLayout>
     );
 };
 

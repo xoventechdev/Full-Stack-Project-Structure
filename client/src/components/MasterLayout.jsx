@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 
-const MasterLayout = () => {
+const MasterLayout = (props) => {
     return (
-        <div>
-            <h2>This is Master Layout</h2>
-        </div>
+        <>
+            <Header />
+                {props.children}
+            <Footer/>
+        </>
     );
 };
 
